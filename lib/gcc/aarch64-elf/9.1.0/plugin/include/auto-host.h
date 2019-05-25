@@ -105,7 +105,7 @@
 /* Define if your target supports default stack protector and it is enabled.
    */
 #ifndef USED_FOR_TARGET
-/* #undef ENABLE_DEFAULT_SSP */
+#define ENABLE_DEFAULT_SSP 1
 #endif
 
 
